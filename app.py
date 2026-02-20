@@ -10,5 +10,5 @@ def display_pdf(file):
     pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}#toolbar=0" width="100%" height="800" type="application/pdf"></iframe>'
     st.markdown(pdf_display, unsafe_allow_html=True)
 
-st.title("물리 수업 전용 뷰어")
-display_pdf("본인의_파일명.pdf") # 여기에 업로드한 PDF 파일명을 쓰세요.
+st.title("고급 물리학 수업 전용 뷰어")
+display_pdf("lesson_01.pdf") # 여기에 업로드한 PDF 파일명을 쓰세요.
